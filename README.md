@@ -1,6 +1,10 @@
-1.- Dokumen/program Specification= sepesifikasi di 4 bilangan ( hexadecimal, Decimal,Biner,Oktal) berupa batasannya di setiap bilangan
+# Calculator Konversi Bilangan
 
-2.- Defensive programming= try catch pada BufferreadReader, BufferreadWriter, handling= convertAndDisplay, Handling Convert di 4 bilangan
+1.- Dokumen/program Specification= sepesifikasi di 4 bilangan ( hexadecimal, Decimal,Biner,Oktal) berupa batasannya di setiap bilangan
+di line ke 226 : determineNumber 
+programnya ada di line 301-391
+
+2.- Defensive programming= try catch pada BufferreadReader line: 154, BufferreadWriter line: 184, handling= convertAndDisplay, Handling Convert di 4 bilangan
 
 3.- program verification/ Testing= fiture testing pengujian yang di rancang untuk menentukan apakah suatu sistem memenuhi persyaratan,seperti di batasan 4 bilangan jika tidak sesuai dengan batasan yg di rancang makan akan muncul error .
 
@@ -14,4 +18,4 @@
 
 8.- GUI based application = adalah Graphical user interface, yaitu menu dan toolbar, visual di layar dan dapat menampilkan atau antarmuka dengan visual layar yang tersambung.
 
-* Dokumen txt ada di = Documents= TUGAS BESAR PROGLAN
+### Dokumen txt ada di = Documents= TUGAS BESAR PROGLAN
