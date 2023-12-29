@@ -2,7 +2,7 @@
 
 1.- Dokumen/program Specification= sepesifikasi di 4 bilangan ( hexadecimal, Decimal,Biner,Oktal) berupa batasannya di setiap bilanga
 
-2.- Defensive programming= try catch pada BufferreadReader line: 154, BufferreadWriter , handling= convertAndDisplay, Handling Convert di 4 bilangan
+2.- Defensive programming= try catch pada BufferreadReader , BufferreadWriter , handling= convertAndDisplay, Handling Convert di 4 bilangan
 
 3.- program verification/ Testing= fiture testing pengujian yang di rancang untuk menentukan apakah suatu sistem memenuhi persyaratan,seperti di batasan 4 bilangan jika tidak sesuai dengan batasan yg di rancang makan akan muncul error .
 
