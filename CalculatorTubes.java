@@ -155,21 +155,21 @@ public class CalculatorTubes extends JFrame {
                 String content = reader.readLine();
                 inputField.setText(content);
 
-                // Tambahkan logika untuk memperbarui fromComboBox dan toComboBox
+
                 updateComboBoxes(content);
 
-                // Konversi dan tampilkan hasil konversi
+
                 convertAndDisplay();
 
-                // Update statusLabel
+
                 statusLabel.setText("Status: File berhasil di baca");
             } catch (IOException ex) {
-                // Update statusLabel
+
                 statusLabel.setText("Status: Gagal membaca file");
                 JOptionPane.showMessageDialog(null, "Gagal membaca file: " + ex.getMessage());
             }
         } else {
-            // Update statusLabel for cancel or other selections
+
             statusLabel.setText("Status: Pembacaan file dibatalkan atau tidak ada file yang dipilih");
         }
     }
@@ -197,8 +197,7 @@ public class CalculatorTubes extends JFrame {
     }
 
     private void updateComboBoxes(String content) {
-        // Tambahkan logika untuk menentukan jenis bilangan dari input file
-        // Lalu perbarui fromComboBox dan toComboBox sesuai jenis bilangan tersebut
+
         String numberType = determineNumberType(content);
 
         switch (numberType) {
@@ -238,7 +237,7 @@ public class CalculatorTubes extends JFrame {
             }
         }
 
-        // Mengembalikan nilai default jika tidak dapat menentukan jenis bilangan
+        
         return "TIDAK VALID";
     }
 
@@ -291,10 +290,10 @@ public class CalculatorTubes extends JFrame {
         String to = (String) toComboBox.getSelectedItem();
         String inputValue = inputField.getText();
 
-        // Implement your conversion logic here
+        
         String result = convert(from, to, inputValue);
 
-        // Display the result in outputField
+        
         outputField.setText(result);
     }
 
@@ -335,7 +334,7 @@ public class CalculatorTubes extends JFrame {
                                 result = Integer.toOctalString(Integer.parseInt(inputValue));
                                 break;
                             case "Decimal":
-                                result = inputValue;  // Langsung mengambil nilai input
+                                result = inputValue;  
                                 break;
                         }
                     } else {
@@ -355,7 +354,7 @@ public class CalculatorTubes extends JFrame {
                                 result = Integer.toOctalString(Integer.parseInt(inputValue, 2));
                                 break;
                             case "Biner":
-                                result = inputValue;  // Langsung mengambil nilai input
+                                result = inputValue;  
                                 break;
                         }
                     } else {
@@ -375,7 +374,7 @@ public class CalculatorTubes extends JFrame {
                                 result = Integer.toHexString(Integer.parseInt(inputValue, 8));
                                 break;
                             case "Oktal":
-                                result = inputValue;  // Langsung mengambil nilai input
+                                result = inputValue;  
                                 break;
                         }
                     } else {
